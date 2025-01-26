@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite TestNG x Selenium">
+    <parameter name="nama" value="budi"></parameter>
+    <test name="Firt My Test">
+        <parameter name="x" value="10"></parameter>
+        <groups>
+            <define name="regression">
+                <include name="g2" />
+                <include name="g4" />
+            </define>
+            <define name="auth">
+                <include name="g2" />
+                <include name="g4" />
+            </define>
+            <run>
+                <include name="regression" />
+
+            </run>
+        </groups>
+        <classes>
+            <class name="com.belajartestng.Demo5Test" />
+            <!--            <class name="com.belajartestng.CalculatorTest" />-->
+
+        </classes>
+    </test>
+    <!--    <test name="Second My Test">-->
+
+    <!--        <parameter name="x" value="100"></parameter>-->
+    <!--        <groups>-->
+    <!--            <run>-->
+    <!--                <include name="g4" />-->
+    <!--            </run>-->
+    <!--        </groups>-->
+    <!--        &lt;!&ndash;        <parameter name="nama" value="andikaaaaulala"></parameter>&ndash;&gt;-->
+    <!--        <classes>-->
+    <!--            <class name="com.belajartestng.Demo5Test" />-->
+    <!--            &lt;!&ndash;            <class name="com.belajartestng.CalculatorTest" />&ndash;&gt;-->
+
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Firt My Test2">-->
+    <!--        <classes>-->
+    <!--            <class name="com.belajartestng.Demo2Test" />-->
+    <!--        </classes>-->
+    <!--    </test>-->
+</suite>

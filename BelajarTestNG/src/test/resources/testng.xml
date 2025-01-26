@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite TestNG x Selenium">
+    <test name="First My Test">
+        <classes>
+            <class name="com.belajartestng.HookTest" />
+            <class name="com.belajartestng.authentication.SignInTest" />
+            <class name="com.belajartestng.authentication.AddCategoryTest" />
+            <class name="com.belajartestng.authentication.AddProductTest" />
+            <class name="com.belajartestng.authentication.LogOutTest" />
+        </classes>
+    </test>
+</suite>
