@@ -8,6 +8,7 @@ public class ChromeDriverManager {
     public static WebDriver make(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
+        options.addArguments("--use-fake-ui-for-media-stream");
         return new ChromeDriver(options);
     }
 }

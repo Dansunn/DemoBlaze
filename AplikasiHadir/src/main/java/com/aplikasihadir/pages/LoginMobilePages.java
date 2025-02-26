@@ -1,25 +1,24 @@
 package com.aplikasihadir.pages;
 
-import dev.failsafe.internal.util.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPages {
+public class LoginMobilePages {
 
     private WebDriver driver;
 
-    @FindBy(xpath = "//input[@id=\"email\"]")
+    @FindBy(xpath = "//input[@id='email']")
     private WebElement fieldEmail;
 
-    @FindBy(xpath = "//input[@id=\"password\"]")
+    @FindBy(xpath = "//input[@id='password']")
     private WebElement fieldPassword;
 
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement btnMasuk;
 
-    public LoginPages(WebDriver driver){
+    public LoginMobilePages(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -29,14 +28,13 @@ public class LoginPages {
         Thread.sleep(1000);
     }
 
-    public void fillPassword(String password) throws InterruptedException{
+    public void fillPassword(String password) throws InterruptedException {
         fieldPassword.sendKeys(password);
         Thread.sleep(1000);
     }
 
     public void clickBtnMasuk() throws InterruptedException {
         btnMasuk.click();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
     }
-
 }
