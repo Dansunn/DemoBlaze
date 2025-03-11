@@ -1,41 +1,26 @@
-📌 Deskripsi
-Proyek ini merupakan pengujian otomatis untuk aplikasi DemoBlaze menggunakan Selenium dan Cucumber BDD. Pengujian dilakukan berdasarkan spesifikasi yang dijelaskan dalam Functional Specification Document (FSD).
+## 📌 Deskripsi
+Proyek ini merupakan pengujian otomatis untuk aplikasi **HADIR** (Mobile & Web) menggunakan **Selenium** dan **Cucumber BDD**. Pengujian dilakukan berdasarkan spesifikasi yang dijelaskan dalam **Functional Specification Document (FSD)**.
 
-📂 Struktur Pengujian
-Pengujian mencakup berbagai fitur aplikasi DemoBlaze, termasuk:
+## 📂 Struktur Pengujian
+Pengujian mencakup berbagai fitur aplikasi Hadir, termasuk:
+1. **Login** - Verifikasi kredensial pengguna.
+2. **Dashboard** - Menampilkan informasi absensi dan status kehadiran.
+3. **Absen Masuk** - Menguji proses absensi masuk.
+4. **Absen Keluar** - Menguji proses absensi keluar.
+5. **Koreksi Absen** - Menguji fitur koreksi absensi.
+6. **Menu Izin** - Menguji proses izin karyawan.
+7. **Menu Laporan** - Menguji tampilan dan filter data laporan absensi.
 
-Register New Account - Verifikasi proses pendaftaran akun baru.
+## ⚙️ Teknologi yang Digunakan
+- **Java** - Bahasa pemrograman utama.
+- **Selenium WebDriver** - Untuk otomatisasi browser.
+- **Cucumber BDD** - Untuk skenario pengujian berbasis **Gherkin**.
+- **TestNG** - Untuk eksekusi dan laporan pengujian.
+- **Maven** - Untuk manajemen dependensi.
 
-Login and Logout - Menguji kredensial pengguna dan proses logout.
-
-Add Product to Cart - Menguji navigasi kategori produk dan proses penambahan produk ke keranjang.
-
-Checkout Process - Menguji proses pembelian, termasuk validasi data checkout.
-
-Verify Contact Form Submission - Menguji pengisian dan pengiriman formulir kontak.
-
-Verify Pagination on Product Listing - Menguji navigasi antar halaman produk.
-
-⚙️ Teknologi yang Digunakan
-
-Java - Bahasa pemrograman utama.
-
-Selenium WebDriver - Untuk otomatisasi browser.
-
-Cucumber BDD - Untuk skenario pengujian berbasis Gherkin.
-
-TestNG - Untuk eksekusi dan laporan pengujian.
-
-Maven - Untuk manajemen dependensi.
-
-📊 Hasil Pengujian
-Laporan pengujian tersedia dalam format HTML menggunakan ExtentReports. Ringkasan hasil:
-
-Total Skenario: 20
-
-Sukses: ✅ 100%
-
-Gagal: ❌ 0%
-
-Fitur yang diuji: Register, Login, Logout, Product Management, Checkout, Contact Form, dan Navigation
-
+## 📊 Hasil Pengujian
+Laporan pengujian tersedia dalam format **HTML** menggunakan **ExtentReports**. Ringkasan hasil:
+- **Total Skenario:** 30
+- **Sukses:** ✅ 90%
+- **Gagal:** ❌ 10%
+- **Fitur yang diuji:** Login, Absen, Koreksi, Izin, dan Laporan.
