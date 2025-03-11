@@ -3,13 +3,12 @@ Proyek ini merupakan pengujian otomatis untuk aplikasi **HADIR** (Mobile & Web) 
 
 ## 📂 Struktur Pengujian
 Pengujian mencakup berbagai fitur aplikasi Hadir, termasuk:
-1. **Login** - Verifikasi kredensial pengguna.
-2. **Dashboard** - Menampilkan informasi absensi dan status kehadiran.
-3. **Absen Masuk** - Menguji proses absensi masuk.
-4. **Absen Keluar** - Menguji proses absensi keluar.
-5. **Koreksi Absen** - Menguji fitur koreksi absensi.
-6. **Menu Izin** - Menguji proses izin karyawan.
-7. **Menu Laporan** - Menguji tampilan dan filter data laporan absensi.
+1. **Register New Account** -  Verifikasi proses pendaftaran akun baru.
+2. **Login and Logout** - Menguji kredensial pengguna dan proses logout.
+3. **Add Product to Cart** - Menguji navigasi kategori produk dan proses penambahan produk ke keranjang.
+4. **Checkout Process** - Menguji proses pembelian, termasuk validasi data checkout.
+5. **Verify Contact Form Submission** -  Menguji pengisian dan pengiriman formulir kontak.
+6. **Verify Pagination on Product Listing** - Menguji navigasi antar halaman produk.
 
 ## ⚙️ Teknologi yang Digunakan
 - **Java** - Bahasa pemrograman utama.
@@ -20,7 +19,7 @@ Pengujian mencakup berbagai fitur aplikasi Hadir, termasuk:
 
 ## 📊 Hasil Pengujian
 Laporan pengujian tersedia dalam format **HTML** menggunakan **ExtentReports**. Ringkasan hasil:
-- **Total Skenario:** 30
-- **Sukses:** ✅ 90%
-- **Gagal:** ❌ 10%
-- **Fitur yang diuji:** Login, Absen, Koreksi, Izin, dan Laporan.
+- **Total Skenario:** 20
+- **Sukses:** ✅ 100%
+- **Gagal:** ❌ 0%
+- **Fitur yang diuji:** Register, Login, Logout, Product Management, Checkout, Contact Form, dan Navigation.
