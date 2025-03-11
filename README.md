@@ -1,5 +1,5 @@
 ## 📌 Deskripsi
-Proyek ini merupakan pengujian otomatis untuk aplikasi **HADIR** (Mobile & Web) menggunakan **Selenium** dan **Cucumber BDD**. Pengujian dilakukan berdasarkan spesifikasi yang dijelaskan dalam **Functional Specification Document (FSD)**.
+Proyek ini merupakan pengujian otomatis untuk aplikasi **DemoBlaze** (Web) menggunakan **Selenium** dan **Cucumber BDD**.
 
 ## 📂 Struktur Pengujian
 Pengujian mencakup berbagai fitur aplikasi Hadir, termasuk:
