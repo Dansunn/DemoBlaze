@@ -23,3 +23,7 @@ Laporan pengujian tersedia dalam format **HTML** menggunakan **ExtentReports**. 
 - **Sukses:** ✅ 100%
 - **Gagal:** ❌ 0%
 - **Fitur yang diuji:** Register, Login, Logout, Product Management, Checkout, Contact Form, dan Navigation.
+
+## Hasil Integration Jenkins
+![image](https://github.com/user-attachments/assets/f3fd093b-3d7c-4a0a-8998-a2089a19af37)
+
