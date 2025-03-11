@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite TestNG x Selenium">
-    <test name="First My Test">
-        <classes>
-            <class name="com.aplikasihadir.runners.RunnerTest" />
-        </classes>
-    </test>
-</suite>
