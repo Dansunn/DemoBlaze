@@ -2,7 +2,7 @@
 Proyek ini merupakan pengujian otomatis untuk aplikasi **DemoBlaze** (Web) menggunakan **Selenium** dan **Cucumber BDD**.
 
 ## 📂 Struktur Pengujian
-Pengujian mencakup berbagai fitur aplikasi Hadir, termasuk:
+Pengujian mencakup berbagai fitur, seperti :
 1. **Register New Account** -  Verifikasi proses pendaftaran akun baru.
 2. **Login and Logout** - Menguji kredensial pengguna dan proses logout.
 3. **Add Product to Cart** - Menguji navigasi kategori produk dan proses penambahan produk ke keranjang.
